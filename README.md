@@ -40,6 +40,9 @@ To start working on your project, here are some guidelines to set up your enviro
 After having installed pre-commit, before each commit, pre-commit hooks will perform static analysis, linting and code quality checks. 
 As a result, you will be sure that each of your commit is clean.
 
+Since your newly created project comes with `github actions`, every push will trigger the workflow `.github/workflows/check_code.yml` for analysing your code.
+
+For publishing your package to [pypi](https://pypi.org/), you only need to set the secret `PYPI_TOKEN` with your token previously generated on pypi.
 
 ## Similar Cookiecutter Templates
 * [audreyr/cookiecutter-pypackage](https://github.com/audreyr/cookiecutter-pypackage)
