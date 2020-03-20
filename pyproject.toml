@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "cookiecutter-pypackage"
+version = "0.1.0"
+description = ""
+authors = ["Ananias CARVALHO <carvalhoananias@hotmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.6.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+detect-secrets = "^0.13.0"
+bandit = "^1.6.2"
+mypy = "^0.770"
+pylint = "^2.4.4"
+pre-commit = "^2.2.0"
+black = "^19.10b0"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
