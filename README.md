@@ -38,12 +38,8 @@ To start working on your project, here are some guidelines to set up your enviro
   5. Run `pre-commit install --install-hooks` to install [precommit hooks](https://github.com/pre-commit/pre-commit)
 
 After having installed pre-commit, before each commit, pre-commit hooks will perform static analysis, linting and code quality checks. 
-
 As a result, you will be sure that each of your commit is clean.
 
 
-## Not exactly what you want ?
-### Similar Cookiecutter Templates
+## Similar Cookiecutter Templates
 * [audreyr/cookiecutter-pypackage](https://github.com/audreyr/cookiecutter-pypackage)
-
-
