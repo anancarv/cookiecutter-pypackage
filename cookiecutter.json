@@ -1,6 +1,6 @@
 {
   "full_name": "Ananias CARVALHO",
-  "email": "carvalhoananias@hotmail.com",
+  "email": "carvalhoananias@example.com",
   "github_username": "anancarv",
   "project_name": "My awesome pypackage",
   "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
