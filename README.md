@@ -2,6 +2,15 @@
 
 Cookiecutter template for creating high quality Python packages.
 
+<!-- toc -->
+
+- [Features](#features)
+- [Install](#install)
+- [Developing](#developing)
+- [Similar Cookiecutter Templates](#similar-cookiecutter-templates)
+
+<!-- tocstop -->
+
 ## Features
 * [github-actions](https://github.com/features/actions): For Continuous Integration
 * [black](https://github.com/psf/black): Python code formatter
