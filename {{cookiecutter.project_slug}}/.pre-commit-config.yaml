@@ -24,4 +24,4 @@ repos:
         entry: pylint
         language: system
         types: [python]
-        files: cookiecutter_pypackage/
+        files: {{cookiecutter.project_slug}}/
