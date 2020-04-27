@@ -34,6 +34,7 @@ To start working on your project, here are some guidelines to set up your enviro
   2. [Install poetry](https://python-poetry.org/docs/#installation)
   3. Activate virtualenv`poetry shell`
   4. Install dependencies: `poetry install`
+  5. Init a git repository: `git init .`
   5. Run `pre-commit install --install-hooks` to install [precommit hooks](https://github.com/pre-commit/pre-commit)
 
 After having installed pre-commit, before each commit, hooks will perform static analysis, linting and code quality checks.
@@ -45,7 +46,6 @@ All the code analysis features can be found in the [Features section](#features)
 Go to your GitHub account and create a new repo named mypackage, where mypackage matches the `project_slug` from your previous answers.
 Back to your CLI, you can do the following in the root of your generated project:
 ```bash
-git init .
 git add .
 git commit -m "Initial skeleton."
 git remote add origin git@github.com:<MY_USERNAME>/mypackage.git
