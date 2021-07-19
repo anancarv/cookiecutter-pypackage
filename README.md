@@ -62,7 +62,6 @@ The only requirement is to set the `PYPI_TOKEN` variable within your [github sec
 * [poetry](https://python-poetry.org/): Dependency management and packaging made easy.
 * [github-actions](https://github.com/features/actions): For Continuous Integration
 * [black](https://github.com/psf/black): Python code formatter
-* [detect-secrets](https://github.com/Yelp/detect-secrets): Secrets detection within the code base 
 * [mypy](https://github.com/python/mypy): Static type checker for Python
 * [bandit](https://github.com/PyCQA/bandit): Find common security issues in Python code.
 * [pylint](https://www.pylint.org/): Source code analyzer

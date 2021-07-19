@@ -1,2 +1,0 @@
-[MESSAGES CONTROL]
-disable=bad-continuation  # Black is used for formatting, which interferes with Pylint rules
