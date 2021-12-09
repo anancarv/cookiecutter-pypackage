@@ -64,7 +64,7 @@ The only requirement is to set the `PYPI_TOKEN` variable within your [github sec
 * [black](https://github.com/psf/black): Python code formatter
 * [mypy](https://github.com/python/mypy): Static type checker for Python
 * [bandit](https://github.com/PyCQA/bandit): Find common security issues in Python code.
-* [pylint](https://www.pylint.org/): Source code analyzer
+* [flake8](https://github.com/PyCQA/flake8): Source code analyzer
 * [pre-commit](https://github.com/pre-commit/pre-commit): A framework for managing and maintaining multi-language pre-commit hooks.
 
 ## Similar Cookiecutter Templates
